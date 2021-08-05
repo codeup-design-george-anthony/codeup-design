@@ -1,0 +1,53 @@
+@media (min-width:576px) {
+    body {
+        background: #E6E6E6;
+    }
+}
+@media(min-width:768px) {
+    body {
+        background: red;
+    }
+}
+@media(min-width:992px) {
+    body {
+        background: blue;
+    }
+}
+@media(min-width:1200px) {
+    body {
+        background: green;
+    }
+}
+@media(max-width:575px) {
+    body {
+        background: yellow;
+    }
+}
+h1 h2 {
+    font-family: Anton, "sans-serif";
+}
+h1 {
+    /*height: 64px;*/
+}
+h2 {
+    /*height: 48px;*/
+}
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
