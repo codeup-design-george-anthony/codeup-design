@@ -47,6 +47,9 @@ h2 {
    font-size: xx-large;
 
 }
+ h6 {
+     font-family: Anton, "sans-serif";
+ }
 
 .circle {
     width: 185px;
@@ -73,7 +76,12 @@ h2 {
     background-color: #00ABA9;
 }
 
-
+.twitter {
+    width: 2rem;
+}
+p {
+    font-family: Abel, "sans-serif";
+}
 
 
 
