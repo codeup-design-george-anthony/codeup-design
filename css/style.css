@@ -1,46 +1,31 @@
-@media (min-width:576px) {
-    body {
-        background: #E6E6E6;
-    }
-    .circle {
-        width: 105px;
-        height: 105px;
-        border-radius: 50%;
-        border: solid 8px white;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-}
-@media(max-width:575px) {
-    body {
-        background: #E6E6E6;
-    }
-    .circle {
-        width: 105px;
-        height: 105px;
-        border-radius: 50%;
-        border: solid 8px white;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-}
-/*@media(min-width:768px) {*/
+/*@media (min-width:576px) {*/
 /*    body {*/
-/*        background: red;*/
+/*        background: #E6E6E6;*/
+/*    }*/
+/*    .circle {*/
+/*        width: 185px;*/
+/*        height: 185px;*/
+/*        border-radius: 50%;*/
+/*        border: solid 10px white;*/
+/*        !*display: flex;*!*/
+/*        align-items: center;*/
+/*        text-align: center;*/
+/*        justify-content: center;*/
 /*    }*/
 /*}*/
-/*@media(min-width:992px) {*/
+/*@media(max-width:575px) {*/
 /*    body {*/
-/*        background: blue;*/
+/*        background: #E6E6E6;*/
 /*    }*/
-/*}*/
-/*@media(min-width:1200px) {*/
-/*    body {*/
-/*        background: green;*/
+/*    .circle {*/
+/*        width: 185px;*/
+/*        height: 185px;*/
+/*        border-radius: 50%;*/
+/*        border: solid 10px white;*/
+/*        !*display: flex;*!*/
+/*        align-items: center;*/
+/*        text-align: center;*/
+/*        justify-content: center;*/
 /*    }*/
 /*}*/
 
@@ -54,18 +39,48 @@ h1 {
     line-height: 64px;
 }
 h2 {
-    line-height: 48px; !important;
+    line-height: 48px;
 }
-/*p {*/
-/*    width: 105px;*/
-/*    height: 105px;*/
-/*    border-radius: 50%;*/
-/*    border: solid 8px white;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    text-align: center;*/
-/*    justify-content: center;*/
-/*}*/
+
+ h5 {
+  font-family: Anton, "sans-serif";
+   font-size: xx-large;
+
+}
+
+.circle {
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    border: solid 10px white;
+    /*display: flex;*/
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.design {
+     background-color: #E6563B;
+ }
+
+
+.develop {
+    background-color: #DEA03D;
+}
+.support {
+    background-color: #7CB06C;
+}
+.host {
+    background-color: #00ABA9;
+}
+
+
+
+
+
+
+
+
+/*NAVBAR*/
 
 nav a {
     font-size: .75em;
@@ -73,7 +88,7 @@ nav a {
 }
 
 .navbar {
-    font-family: Abel, "sans-serif"
+    font-family: Abel, "sans-serif";
 }
 
 .nav-background {
